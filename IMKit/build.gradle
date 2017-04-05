@@ -33,5 +33,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'src/main/libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'src/main/libs')
+    compile 'com.android.support:support-v4:25.2.0'
 }
