@@ -1,4 +1,4 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 /**
  * Created by Hades on 2017/4/5.

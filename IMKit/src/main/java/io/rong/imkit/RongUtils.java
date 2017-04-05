@@ -1,8 +1,7 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 import android.content.Context;
 
-import io.rong.imkit.RongIM;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 

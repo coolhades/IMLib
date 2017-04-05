@@ -1,4 +1,4 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.hades.imlibrary.R;
 
 import io.rong.imkit.model.ProviderTag;
 import io.rong.imkit.model.UIMessage;
@@ -36,9 +34,9 @@ public class CustomMessageItemProvider extends IContainerItemProvider.MessagePro
                          UIMessage uiMessage) {
         ViewHolder holder = (ViewHolder) view.getTag();
         if (Message.MessageDirection.SEND == uiMessage.getMessageDirection()){//消息方向，自己发送的
-            holder.layout.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_right);
+            holder.layout.setBackgroundResource(R.drawable.rc_ic_bubble_right);
         }else {
-            holder.layout.setBackgroundResource(io.rong.imkit.R.drawable.rc_ic_bubble_left);
+            holder.layout.setBackgroundResource(R.drawable.rc_ic_bubble_left);
         }
 //        Log.d("TAG-CustomMessage", "image"+customMessage.getBitmap()+"url="+customMessage.getUrl());
         holder.message.setText(customMessage.getContent());

@@ -1,4 +1,4 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,6 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 
-import com.hades.imlibrary.R;
-
-import io.rong.imkit.RongExtension;
-import io.rong.imkit.RongIM;
 import io.rong.imkit.plugin.IPluginModule;
 import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;

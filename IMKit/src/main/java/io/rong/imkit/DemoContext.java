@@ -1,4 +1,4 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 import android.content.Context;
 import android.content.SharedPreferences;

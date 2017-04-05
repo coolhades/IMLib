@@ -1,14 +1,10 @@
-package com.hades.imlibrary.rongyun;
+package io.rong.imkit;
 
 import android.content.Context;
 import android.util.Log;
 
 import java.util.List;
 
-import io.rong.imkit.DefaultExtensionModule;
-import io.rong.imkit.IExtensionModule;
-import io.rong.imkit.RongExtensionManager;
-import io.rong.imkit.RongIM;
 import io.rong.imkit.manager.IUnReadMessageObserver;
 import io.rong.imkit.model.GroupUserInfo;
 import io.rong.imlib.RongIMClient;
